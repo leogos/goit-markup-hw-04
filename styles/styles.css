@@ -302,6 +302,7 @@ a {
 
 .features h3 {
   display: flex;
+  margin-top: 8px;
 }
 
 .features li {
@@ -412,5 +413,15 @@ rgba(46, 47, 66, 0.16);
   fill: #ffffff;
 }
 
-
-
+.svg-card {
+  background-color: #F4F4FD;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  border: 1px solid #8E8F99;
+  align-items: center;
+  padding-bottom: 24px;
+  padding-top: 24px;
+  margin: 0 auto;
+}
