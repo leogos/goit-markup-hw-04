@@ -338,10 +338,10 @@ h2 {
   color: #06093b;
   margin-bottom: 8px;
   padding-top: 32px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team p {
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-bottom: 8px;
 }
 
@@ -488,7 +488,7 @@ rgba(46, 47, 66, 0.16);
 }
 
 .icon-item:hover,
-.icon-item:focus {
+.icon-item:focus-within {
   background-color: #31D0AA;
 }
 
