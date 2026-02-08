@@ -194,18 +194,93 @@ h2 {
 
 .footer .container {
   display: flex;
+  gap: 120px;
+}
+
+.footer ul {
+  padding: 0;
+  margin: 0;
+}
+
+.footer li {
+  list-style: none;
+  display: flex;
   flex-direction: column;
+  gap: 16px;
+}
+
+.footer-icons {
+  display: flex;
+  gap: 16px;
+}
+
+.icon-footer {
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+}
+
+.icon-footer use {
+  fill: #ffffff;
+}
+
+.icon-footer:hover,
+.icon-footer:focus {
+  background-color: #31D0AA;
 }
 
 .footer p {
   color: #e7e9fc;
   width: 264px;
-  margin-top: 16px;
+  margin: 0;
 }
 
 .footer a {
   text-decoration: none;
 }
+
+.footer-social svg {
+  text-decoration: none;
+  display: flex;
+}
+
+.footer-social {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.footer-social-item {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.footer-icons {
+  display: flex;
+  gap: 16px;
+}
+
+.icon-footer {
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-footer svg {
+  fill: #ffffff;
+}
+
 
 .hero .container {
   background-color: #2e2f42;
@@ -273,7 +348,6 @@ h2 {
   color: blue;
 }
 
-
 .ul {
   list-style: none;
 }
@@ -286,6 +360,7 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
 
 .features {
   display: flex;
@@ -407,7 +482,15 @@ rgba(46, 47, 66, 0.16);
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
 }
+
+.icon-item:hover,
+.icon-item:focus {
+  background-color: #31D0AA;
+}
+
 
 .icon {
   fill: #ffffff;
